@@ -14,7 +14,7 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v4  # 更新到最新
         with:
-          java-version: 21
+          java-version: 17
           distribution: 'zulu'
           cache: 'gradle'
         
